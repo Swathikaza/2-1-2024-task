@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+        
+    <h1 style="color: red">Media Queries</h1>
+        <br>
+        <img src="icons8-facebook-96.png" class="col-lg-9 col-md-4 col-sm-4 col-xs-9">
+        
+        <div class="holder">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+         <div class="box">Box5</div>
+        </div>
+        </center>
+    </body>
+    <style>
+        .holder{
+            width: 80%;
+            border:  5px yellow;
+        }
+        .box{
+            width: 100%;
+            border: ridge 7px aqua;
+            overflow:scroll;
+        }
+        @media screen and (min-width:770px){
+            body{
+                background-color: green;
+            }
+        }
+        @media screen and (max-width:850px){
+            body{
+                background-color: lightpink;
+            }
+        }
+        
+    </style>
+    
+</html>
